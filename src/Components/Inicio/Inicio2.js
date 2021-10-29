@@ -24,12 +24,13 @@ function Inicio2(props) {
                             {/*     preserveAspectRatio="xMidYMid slice" focusable="false">*/}
                             {/*    <rect width="100%" height="100%" fill="#777"/>*/}
                             {/*</svg>*/}
-                            <img src={home3}/>
+                            <img src={home3} alt={'home3'}/>
                             <div className="container">
                                 <div className="carousel-caption text-start">
                                     <h1>Example headline.</h1>
                                     <p>Some representative placeholder content for the first slide of the carousel.</p>
-                                    <p><a className="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                                    {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+                                    <p><a className="btn btn-lg btn-primary">Sign up today</a></p>
                                 </div>
                             </div>
                         </div>
@@ -39,12 +40,13 @@ function Inicio2(props) {
                             {/*     preserveAspectRatio="xMidYMid slice" focusable="false">*/}
                             {/*    <rect width="100%" height="100%" fill="#777"/>*/}
                             {/*</svg>*/}
-                            <img src={home2}/>
+                            <img src={home2} alt={'home2'}/>
                             <div className="container">
                                 <div className="carousel-caption">
                                     <h1>Another example headline.</h1>
                                     <p>Some representative placeholder content for the second slide of the carousel.</p>
-                                    <p><a className="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                                    {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+                                    <p><a className="btn btn-lg btn-primary">Learn more</a></p>
                                 </div>
                             </div>
                         </div>
@@ -54,12 +56,13 @@ function Inicio2(props) {
                             {/*     preserveAspectRatio="xMidYMid slice" focusable="false">*/}
                             {/*    <rect width="100%" height="100%" fill="#777"/>*/}
                             {/*</svg>*/}
-                            <img src={home1}/>
+                            <img src={home1} alt={'home1'}/>
                             <div className="container">
                                 <div className="carousel-caption text-end">
                                     <h1>One more for good measure.</h1>
                                     <p>Some representative placeholder content for the third slide of this carousel.</p>
-                                    <p><a className="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                                    {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+                                    <p><a className="btn btn-lg btn-primary">Browse gallery</a></p>
                                 </div>
                             </div>
                         </div>
@@ -94,7 +97,7 @@ function Inicio2(props) {
                         {/*    <rect width="100%" height="100%" fill="#eee"/>*/}
                         {/*    <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>*/}
                         {/*</svg>*/}
-                        <img src={index_comida1}/>
+                        <img src={index_comida1} alt={'index comida'}/>
                     </div>
                 </div>
                 <hr className="featurette-divider"/>
@@ -113,7 +116,7 @@ function Inicio2(props) {
                         {/*    <rect width="100%" height="100%" fill="#eee"/>*/}
                         {/*    <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>*/}
                         {/*</svg>*/}
-                        <img src={index_comida2}/>
+                        <img src={index_comida2} alt={'index comida'}/>
                     </div>
                 </div>
                 <hr className="featurette-divider"/>
@@ -133,7 +136,7 @@ function Inicio2(props) {
                         {/*    <rect width="100%" height="100%" fill="#eee"/>*/}
                         {/*    <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>*/}
                         {/*</svg>*/}
-                        <img src={index_comida3}/>
+                        <img src={index_comida3} alt={'index comida'}/>
                     </div>
                 </div>
                 <hr className="featurette-divider"/>
@@ -141,8 +144,10 @@ function Inicio2(props) {
                 {/* /.container */}
                 {/* FOOTER */}
                 <footer className="container">
-                    <p className="float-end"><a href="#">Back to top</a></p>
-                    <p>© 2017–2021 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+                    {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+                    <p className="float-end"><a >Back to top</a></p>
+                    {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+                    <p>© 2017–2021 Company, Inc. · <a >Privacy</a> · <a >Terms</a></p>
                 </footer>
         </Fragment>
     );

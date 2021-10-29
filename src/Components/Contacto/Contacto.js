@@ -76,11 +76,13 @@ function Contacto(props) {
                     <h4>Turno Noche</h4>
                     <span>Lunes a Sabados: 19:30 hrs - 22:30 hrs</span>
                 </div>
+                {/* eslint-disable-next-line jsx-a11y/iframe-has-title */}
                 <iframe className={'radiodelivery'}
                         src="https://www.google.com/maps/d/u/0/embed?mid=1D6FKIosfoa2svbnFbzaL8gsraUE5wYmf" width={640}
                         height={480}/>
             </div>
 
+            {/* eslint-disable-next-line jsx-a11y/iframe-has-title */}
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3287.9727203106786!2d-58.49711838416246!3d-34.50357585971449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb110e171a41d%3A0xc7143aebd38c950!2sBar%20Jos%C3%A9%20Ingenieros!5e0!3m2!1ses-419!2sar!4v1630562203139!5m2!1ses-419!2sar"
                 style={{border: 0}} allowFullScreen loading="lazy" className={'googlemaps'}/>
@@ -102,7 +104,7 @@ function Contacto(props) {
                 /*{!-- Message input --}*/}
                 <div className="form-outline mb-4">
                     <label className="form-label" htmlFor="form4Example3">Message</label>
-                    <textarea className="form-control" id="form4Example3" rows="4"></textarea>
+                    <textarea className="form-control" id="form4Example3" rows="4"/>
 
                 </div>
 

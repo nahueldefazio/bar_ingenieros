@@ -11,12 +11,14 @@ function Footer() {
                             <li><a className="facebook"
                                    href="https://www.facebook.com/Bar-Jos%C3%A9-Ingenieros-130340603688847" ><i
                                 className="fa fa-facebook"/></a></li>
+                            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                             <li><a className="twitter" href="#"><i className="fa fa-twitter"/></a></li>
                         </ul>
                     </div>
                     <div className="col-md-8 col-sm-6 col-xs-12 d-flex align-items-center justify-content-center">
                         <p className="copyright-text">Copyright © All Rights Reserved by
-                            <a href="#">Nahuel De Fazio</a>.
+                            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+                            <a >Nahuel De Fazio</a>.
                         </p>
                     </div>
                 </div>

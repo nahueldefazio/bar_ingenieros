@@ -1,8 +1,6 @@
 import Navbar from "./Components/Shared/Navbar/Navbar";
 import './App.css'
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
-import Menu from './Components/Menu/Menu'
-import Inicio from './Components/Inicio/Inicio'
 import Delivery_Contacto from "./Components/Contacto/Contacto";
 import Footer from "./Components/Shared/Footer/Footer";
 import Nosotros from "./Components/Nosotros/Nosotros";

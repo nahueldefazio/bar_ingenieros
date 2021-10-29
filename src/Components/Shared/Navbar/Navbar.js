@@ -8,6 +8,7 @@ function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light " style={{backgroundColor: 'white'}}>
             <div className="container-fluid">
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 <a className="navbar-brand" href="#">
                     <img src={logo} alt={"Logo"} style={{width: "190px"}}/>
                 </a>

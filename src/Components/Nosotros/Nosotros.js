@@ -1,7 +1,6 @@
 import React from 'react';
 import '../Nosotros/Nosotros.css'
 import bar from "../../images/bar-de-esquina.jpg";
-import bar_historia from '../../images/nosotros/bar_historia.jpeg'
 import bar_historia_2 from '../../images/nosotros/bar_historia_2.jpeg'
 import ImagenPrincipal from "../Shared/ImagenPrincipal/ImagenPrincipal";
 

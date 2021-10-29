@@ -7,7 +7,8 @@ function ImagenPrincipal(props) {
             return (
                 <Fragment>
                     <p className='textoTituloPrincipal'>Tu mejor eleccion!</p>
-                    <a className="btn btn-primary" href="#" role="button">Ver Carta</a>
+                    {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+                    <a className="btn btn-primary" role="button">Ver Carta</a>
                 </Fragment>
             )
         }else if (props.nosotros){
@@ -25,7 +26,7 @@ function ImagenPrincipal(props) {
     return (
         <Fragment>
             <div className="fondoPrincipal">
-                <img className='imagenFondo' src={props.imagen}/>
+                <img className='imagenFondo' src={props.imagen} alt={'imagen'}/>
                 <div className="contenedorMidIndex">
                     <h1 className='tituloPrincipal'> {props.titulo} </h1>
                     {extras()}
