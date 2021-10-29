@@ -1,0 +1,23 @@
+.tituloPrincipal{
+    font-size: 6rem;
+}
+.contenedor_historia {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin: 3rem;
+}
+
+.imagenHistoria{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.historia_parrafo_titulo{
+    font-size:2rem;
+}
+
+.historia_parrafo_principal{
+    font-size: 1.5rem;
+    text-align: justify;
+}

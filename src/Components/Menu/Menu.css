@@ -1,0 +1,81 @@
+img {
+    width: 100%;
+}
+
+.grilla_comidas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+@media screen and (max-width: 1290px) {
+    .grilla_comidas {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        gap: 1rem;
+        margin: 1rem;
+    }
+
+    .menu_mostrar_tablet{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .grilla_comidas {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 1rem;
+        gap: 1rem;
+        margin: 1rem;
+    }
+}
+
+@media screen and (min-width: 600px){
+    .menu_mostrar_cel{
+        display: none;
+    }
+    .menu_mostrar_pc{
+        display: none;
+    }
+    .menu_mostrar_tablet{
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    .menu_mostrar_cel{
+        display: block;
+    }
+    .menu_mostrar_pc{
+        display: none;
+    }
+    .menu_mostrar_tablet{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1300px){
+    .menu_mostrar_cel{
+        display: none;
+    }
+    .menu_mostrar_pc{
+        display: block;
+    }
+    .menu_mostrar_tablet{
+        display: none;
+    }
+}
+
+.imagenFondo {
+    background: url("../../images/menu/menu_imagen.png") no-repeat;
+    background-size: cover;
+}
+
+
+
